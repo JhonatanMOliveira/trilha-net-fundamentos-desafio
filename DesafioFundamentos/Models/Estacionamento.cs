@@ -6,6 +6,7 @@ namespace DesafioFundamentos.Models
         private decimal precoPorHora = 0;
         private List<string> veiculos = new List<string>();
 
+// Concluido
         public Estacionamento(decimal precoInicial, decimal precoPorHora)
         {
             this.precoInicial = precoInicial;
